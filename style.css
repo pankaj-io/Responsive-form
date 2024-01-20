@@ -1,0 +1,128 @@
+*{  
+    margin:0;
+    padding:0;
+    background:rgb(31, 30, 30);
+
+}
+.main1{
+    width:35%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.email{
+    display: flex;
+    justify-content: flex-start;
+    border:1px solid rgb(162, 179, 194);
+    border-radius: 0.3rem;
+    padding:1vh;
+    margin-top: 0.5rem;
+    margin-bottom:1rem;
+}
+.email input{
+    border:none;
+    background: none;
+    color:rgb(162, 179, 194);
+    width:100%;
+}
+.password{
+    display: flex;
+    border:1px solid rgb(162, 179, 194);;
+    border-radius: 0.3rem;
+    padding:1vh;
+    margin-top: 0.5rem;
+    margin-bottom:1rem;
+}
+.password input{
+    border:none;
+    background: none;
+    color:rgb(162, 179, 194);
+    width:100%;
+}
+
+.head{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10vh;
+
+
+}
+img{
+    width: 3rem;
+}
+
+.sound{
+    max-width:100%;
+    font-style: italic; 
+    color:white;
+    text-align:end;
+    
+}
+.future {
+    display: flex;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vh;
+    color:white;
+
+}
+label{
+   display: flex; 
+    color:white;
+}
+
+.fa-solid{
+
+    font-size:15px;
+    color:rgb(162, 179, 194);
+} 
+
+.box p{
+    margin-left:10px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    background: rgb(226, 46, 46);
+    border-radius: 8px;
+    padding: 1vh;
+    margin-top: 4rem ;
+}
+.login input{
+    background:transparent;
+    border:transparent;
+    color:white;
+    width: 100%;
+}
+
+/* checkbox */ 
+
+input[type=checkbox]{
+    display:none;
+}
+input[type=checkbox] + label:before{
+    content:"\2714";
+    border:0.1px solid rgb(255, 255, 255);
+    border-radius: 0.2 rem;
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+    padding-left:0.2em;
+    padding-bottom: 0.3em;
+    margin-right:0.2em;
+    vertical-align: bottom;
+    color:transparent;
+    border-radius: 0.3rem;
+}
+
+input[type=checkbox]:checked + label:before{
+    background-color: rgb(31, 30, 30);
+    border-color:rgb(253, 253, 253);
+    border-radius: 0.3rem;
+    color:rgb(248, 248, 248);
+}
